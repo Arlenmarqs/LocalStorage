@@ -85,3 +85,18 @@ form#formCadastro button:hover {
 #listaUsuarios div:last-child {
   border-bottom: none;
 }
+
+#cadastradosButton{
+  padding: 12px;
+  background-color: #172f8f;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#cadastradosButton:hover {
+  background-color: #3b5bdb;
+}
