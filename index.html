@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <title>Tela de Cadastro</title>
 </head>
+
 <body>
   <h2>Cadastro de Usuário</h2>
   <form id="formCadastro">
@@ -13,9 +15,12 @@
     <input type="password" id="senha" placeholder="Senha" required />
     <button type="submit">Cadastrar</button>
   </form>
+  <div id="usuarios">
+    <h3>Usuários Cadastrados</h3>
+    <div id="listaUsuarios"></div>
+  </div>
 
-    <button id="cadastradosButton" onclick="window.location.href = 'cadastrados.html';"> Cadastrados </button>
-    
   <script src="script.js"></script>
 </body>
+
 </html>
